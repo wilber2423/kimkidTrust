@@ -14,7 +14,7 @@ export const getAllCoins = createAsyncThunk(
   async (_, { getState }) => {
     try {
       const response = await axios.get(
-        "https://baendtrustwalt.vercel.app/api/coins",
+        "https://kimkidbackend.vercel.app/api/coins",
       );
       // const response = await axios.get("http://localhost:5000/api/coins");
 
